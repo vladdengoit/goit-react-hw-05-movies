@@ -26,7 +26,7 @@ const CastList = () => {
       }
     };
     haveCast();
-  }, []);
+  }, [movieId]);
 
   const ElementsCastList = state.map(el => (
     <li key={el.id} className={styles.lishka}>

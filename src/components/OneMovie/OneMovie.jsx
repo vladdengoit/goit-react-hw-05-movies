@@ -30,7 +30,7 @@ const OneMovie = () => {
       }
     };
     haveSingleMovie();
-  }, []);
+  }, [movieId]);
   const goBack = () => navigateMovie(from);
 
   return (

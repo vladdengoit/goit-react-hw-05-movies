@@ -22,7 +22,7 @@ const Review = () => {
       }
     };
     haveSingleMovie();
-  }, []);
+  }, [movieId]);
   const ElementsReviewsList = state.map(el => (
     <li key={el.id} className={styles.lishka}>
       <div className={styles.image}>
