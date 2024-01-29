@@ -1,0 +1,28 @@
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 25%;
+  margin: 7px;
+  padding: 7px;
+  width: fit-content;
+}
+
+.title {
+  margin: 25px;
+  padding: 10px;
+  border-radius: 40%;
+  background-color: rgba(211, 211, 211, 0.611);
+  width: fit-content;
+}
+.error {
+  color: red;
+}

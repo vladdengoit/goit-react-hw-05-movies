@@ -1,0 +1,19 @@
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  width: fit-content;
+  height: fit-content;
+}
+
+.link {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 7px;
+  padding: 5px;
+}

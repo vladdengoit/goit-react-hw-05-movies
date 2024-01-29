@@ -1,0 +1,32 @@
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 25%;
+  margin: 10px;
+  padding: 9px;
+  width: fit-content;
+  margin-left: 20px;
+}
+
+.title {
+  margin: 25px;
+  padding: 10px;
+  border-radius: 40%;
+  background-color: rgba(211, 211, 211, 0.611);
+  width: fit-content;
+}
+.error {
+  color: red;
+}
+.ulka {
+  margin-top: 20px;
+}
