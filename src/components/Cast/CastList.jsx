@@ -3,7 +3,6 @@ import { getCastbyId } from '../../API/Api';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { Loader } from '../../components/Loader/Loader';
-// import { Link, Outlet } from 'react-router-dom';
 
 const CastList = () => {
   const { movieId } = useParams();
