@@ -12,6 +12,7 @@ const OneMovie = () => {
   const navigateMovie = useNavigate();
   const location = useLocation();
   const from = location.state?.from || '/';
+  console.log(from);
   const { movieId } = useParams();
   const [state, setState] = useState({});
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ const OneMovie = () => {
         Go back
       </button>
       <Loader loading={loading} />
+      {error && alert(error)}
       {state && (
         <>
           <div className={styles.conteiner}>

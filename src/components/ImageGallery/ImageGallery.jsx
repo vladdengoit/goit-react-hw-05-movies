@@ -1,5 +1,6 @@
 import styles from './ImageGallery.module.css';
 import { Link, useLocation } from 'react-router-dom';
+
 const ImageGallery = ({ movieList }) => {
   const location = useLocation();
   const movies = movieList.map(el => (
