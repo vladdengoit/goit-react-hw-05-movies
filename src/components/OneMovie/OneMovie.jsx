@@ -46,6 +46,7 @@ const OneMovie = () => {
           <div className={styles.conteiner}>
             <div className={styles.image} key={state.id}>
               <img
+                width={250}
                 src={
                   state.poster_path
                     ? urlForMovie + state.poster_path
